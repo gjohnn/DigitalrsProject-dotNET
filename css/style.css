@@ -1,0 +1,50 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+header{
+    background-color: #ffe4c8
+}
+
+.header_in{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_in > nav > a{
+    color: #281a14;
+  margin-left: 15px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.header_in > nav > a:hover {
+    background-color: #281a14;
+    color: white;
+    border: #281a14;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+
+.logo{
+    height: 90px;
+    margin: 10px;
+}
+
+.logo > a > img{
+    height: 90px;
+    border: solid, transparent;
+    border-radius: 70px;
+    padding: -10px;
+    margin: -5px;
+}
+
+.logo > a > img:hover{
+    border: solid,black;
+    border-radius: 70px;
+    transition-duration: 0.5s;
+}
+
+

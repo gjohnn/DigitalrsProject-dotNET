@@ -7,6 +7,10 @@ header{
     background-color: #ffe4c8
 }
 
+main{
+    margin: 0;
+}
+
 .header_in{
     display: flex;
     justify-content: space-around;
@@ -85,4 +89,13 @@ article > p{
     margin-right: 1rem;
 
 }
+
+footer{
+    background: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;}
 

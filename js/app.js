@@ -16,7 +16,7 @@ arr.push(papu2);
 
 arr.forEach((e) => {
   const { name, age, surname } = e;
-  console.log(papunombre);
+  console.log(name);
   console.log(age);
   console.log(surname);
   console.log("-------------------");

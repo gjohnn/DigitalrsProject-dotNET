@@ -19,8 +19,6 @@ header.innerHTML=`
       
 `;
 
-
-
 let footer = document.getElementById("footer");
 
 footer.innerHTML = `
@@ -34,6 +32,6 @@ footer.innerHTML = `
         ></a>
       </div>
       <p style="  color: black;
-">Follow us on social media!</p>
+">Síguenos en nuestras redes!</p>
 `
 

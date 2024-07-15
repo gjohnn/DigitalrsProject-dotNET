@@ -1,5 +1,10 @@
-#showProducts_Promos{
+section{
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+h2{
+    color: white;
 }

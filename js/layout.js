@@ -9,7 +9,7 @@ header.innerHTML=`
           </a>
         </div>
         <nav>
-          <a href="/">Inicio</a>
+          <a href="/index.html">Inicio</a>
           <a href="./products.html">Productos</a>
           <a href="./deals.html">Promos</a>
           <a href="./reservas.html">Reservas</a>

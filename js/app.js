@@ -52,3 +52,7 @@ if (sectionPromos) {
     sectionPromos.appendChild(article);
   });
 }
+
+console.log(cakes);
+console.log(coffees);
+console.log(promotions);

@@ -1,22 +1,21 @@
 const REPO_URL = "https://gjohnn.github.io/DigitalrsProject-dotNET/";
 const currentURL = window.location.origin + window.location.pathname.replace(/\/$/, "");
 const BASE_URL = currentURL.startsWith(REPO_URL) ? REPO_URL : "";
-const cakes = [
+const coffees = [
   {
-    name: "Cheesecake de Nutella",
+    name: "Americano",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet justo nec ligula blandit scelerisque.",
-    image: `${BASE_URL}/imgs/prods/cakes/cheesecake_nutella.jpg`,
+    image: `${BASE_URL}/imgs/prods/coffees/coffee_americano.jpg`,
   },
   {
-    name: "Chocotorta",
+    name: "Latte",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet justo nec ligula blandit scelerisque.",
-    image: `${BASE_URL}/imgs/prods/cakes/chocotorta.jpg`,
+    image: `${BASE_URL}/imgs/prods/coffees/coffee_latte.jpg`,
   },
   {
-    name: "Selva Negra",
+    name: "Cappuccino",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet justo nec ligula blandit scelerisque.",
-    image: `${BASE_URL}/imgs/prods/cakes/selva_negra.jpg`,
+    image: `${BASE_URL}/imgs/prods/coffees/cappuccino.jpg`,
   },
 ];
-
-export default cakes;
+export default coffees;

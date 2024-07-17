@@ -1,7 +1,6 @@
 import cakes from "./cakes.js";
 import coffees from "./coffees.js";
 import promotions from "./promos.js";
-
 function createProductElement(product) {
   let article = document.createElement("article");
   article.innerHTML = `
